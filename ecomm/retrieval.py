@@ -38,7 +38,7 @@ Answer:
 if __name__=='__main__':
     v_store=ingest_data("Data Already Uploaded to AstraDB")
     chain=generate(v_store)
-    print(chain.invoke("Tell me some good bluetooth headsets"))
+    print(chain.invoke("Tell me some good laptops"))
 
 
 

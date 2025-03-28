@@ -16,7 +16,7 @@ hf_embeddings = HuggingFaceEmbeddings(model_name="ibm-granite/granite-embedding-
 def ingest_data(status):
     v_store=AstraDBVectorStore(
         embedding=hf_embeddings,
-        collection_name="ecomm_chatbot",
+        collection_name="laptop_data",
         api_endpoint=ASTRA_ENDPOINT,
         token=ASTRA_TOKEN,
         namespace=ASTRA_KEYSPACE
@@ -34,10 +34,10 @@ def ingest_data(status):
 
 if __name__=='__main__':
     v_store,insert_ids=ingest_data(None)
-    print("""\n Inserted {len(insert_ids)} documents""")
-    results=v_store.similarity_search("can you tell me low budgest headsets")
+    print("\n Inserted {len(insert_ids)} documents")
+    results=v_store.similarity_search("can you tell me some good laptops")
 
     for i in results:
-        print(f" {i.page_content} [{i.metadata}]")
+        print(f" {i.page_content} ")
 
 
