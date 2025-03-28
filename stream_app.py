@@ -2,7 +2,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from ecomm.retrieval import generate
 from ecomm.ingest import ingest_data
-
+st.set_page_config(page_title="🛒 Ecommerce_Laptop Chatbot", page_icon="🤖")
 load_dotenv()
 
 # Initialize Chain only once
@@ -14,8 +14,8 @@ def load_chain():
 
 chain = load_chain()
 
-st.set_page_config(page_title="🛒 Ecommerce_Laptop Chatbot", page_icon="🤖")
-st.title("🛒 E-Commerce Ecommerce_Laptop Chatbot")
+
+st.title("🛒 Ecommerce_Laptop Chatbot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
