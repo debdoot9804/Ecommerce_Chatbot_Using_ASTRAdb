@@ -6,5 +6,6 @@ datasets
 pypdf
 python-dotenv
 flask
+gunicorn
 
 -e.
