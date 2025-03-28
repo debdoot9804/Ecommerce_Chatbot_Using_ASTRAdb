@@ -1,6 +1,0 @@
-langchain-astradb
-langchain
-langchain_groq
-datasets
-python-dotenv
-flask
