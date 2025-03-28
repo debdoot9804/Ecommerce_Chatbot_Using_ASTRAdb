@@ -1,8 +1,0 @@
-print(f"Inserted {len(insert_ids)} documents")
-print("Sample IDs:", insert_ids[:3])  # See first 3 IDs
-
-# Try retrieving
-results = v_store.similarity_search("best gaming laptop")
-print(f"\nFound {len(results)} similar documents\n")
-for res in results:
-    print(res.page_content)
