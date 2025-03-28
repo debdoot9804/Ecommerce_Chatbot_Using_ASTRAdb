@@ -7,5 +7,5 @@ pypdf
 python-dotenv
 flask
 gunicorn
-
+streamlit
 -e.
