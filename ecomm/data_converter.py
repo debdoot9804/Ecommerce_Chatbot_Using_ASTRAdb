@@ -2,7 +2,7 @@ import pandas as pd
 from langchain_core.documents import Document
 
 def DataConverter():
-    data=pd.read_csv("data\\laptops_dataset_final.csv")
+    data=pd.read_csv("../data/laptops_dataset_final.csv")
     data=data[['product_name','overall_rating','review']]
     product_list=[]
 
