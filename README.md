@@ -18,14 +18,19 @@ An AI-based Ecommerce Chatbot that allows users to search and inquire about prod
 ### ⚙️ Installation & Setup
 
 1. Clone the Repository
+
    git clone https://github.com/debdoot9804/Ecommerce_Chatbot_Using_ASTRAdb.git
+
    cd Ecommerce_Chatbot_Using_ASTRAdb
 
-2. Create Virtual Environment (Recommended)
+3. Create Virtual Environment (Recommended)
+
    python -m venv venv
+
    source venv/bin/activate  # Windows: venv\Scripts\activate
 
-3. Install Dependencies
+5. Install Dependencies
+
    pip install -r requirements.txt
 
 4.Update .env with your credentials
@@ -34,10 +39,14 @@ An AI-based Ecommerce Chatbot that allows users to search and inquire about prod
 ### ▶️ Running the Chatbot
 
   After setup, run the chatbot:
+  
   python app.py
 
-### 🌐 Author : Debdoot Sen
-   Email : debdutsen111@gmail.com
+### 🌐 
+        
+       Author : Debdoot Sen
+   
+       Email : debdutsen111@gmail.com
 
 
    
