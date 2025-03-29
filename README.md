@@ -12,6 +12,9 @@ An AI-based Ecommerce Chatbot that allows users to search and inquire about prod
 
 ✅ Streamlit UI as frontend interface.
 
+
+![image](https://github.com/user-attachments/assets/e42aee74-3e84-43c6-88b9-ce25116b9ecd)
+
  
 
  
